@@ -25,8 +25,8 @@
 					<span class="badge badge-primary">{{ $user->type }}</span>
 				@endif
 			</td>
-			<td><a href="{{ route('users.destroy', $user->id) }}" class="btn btn-danger"><i class="material-icons">close</i></a> 
-				<a href="" class="btn btn-warning"><i class="material-icons">mode_edit</i></a></td>
+			<td><a href="{{ route('users.destroy', $user->id) }}" class="btn btn-danger text-white"><i class="material-icons">close</i></a> 
+				<a href="" class="btn btn-warning text-white"><i class="material-icons">mode_edit</i></a></td>
 		</tr>
 		@endforeach
 	</tbody>
