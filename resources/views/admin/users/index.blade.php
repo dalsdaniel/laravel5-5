@@ -7,10 +7,10 @@
 <table class="table table-striped ">
 	<thead>
 		<th>ID</th>
-		<th>Nombre</th>
-		<th>Correo</th>
-		<th>Tipo</th>
-		<th>Acción</th>
+		<th>NOMBRE</th>
+		<th>CORREO</th>
+		<th>TIPO</th>
+		<th>ACCIÓN</th>
 	</thead>
 	<tbody>
 		@foreach($users as $user)
