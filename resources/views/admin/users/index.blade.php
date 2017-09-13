@@ -6,11 +6,11 @@
 <a href="{{ route('users.create') }}" class="btn btn-success">Registrar nuevo usuario</a>
 <table class="table table-striped ">
 	<thead>
-		<th>ID</th>
-		<th>NOMBRE</th>
-		<th>CORREO</th>
-		<th>TIPO</th>
-		<th>ACCIÓN</th>
+		<th class="text-primary">ID</th>
+		<th class="text-primary">NOMBRE</th>
+		<th class="text-primary">CORREO</th>
+		<th class="text-primary">TIPO</th>
+		<th class="text-primary">ACCIÓN</th>
 	</thead>
 	<tbody>
 		@foreach($users as $user)
