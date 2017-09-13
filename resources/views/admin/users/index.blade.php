@@ -25,8 +25,8 @@
 					<span class="badge badge-primary">{{ $user->type }}</span>
 				@endif
 			</td>
-			<td><a href="{{ route('users.destroy', $user->id) }}" class="btn btn-danger text-white"><i class="material-icons">close</i></a> 
-				<a href="" class="btn btn-warning text-white"><i class="material-icons">mode_edit</i></a></td>
+			<td><a href="{{ route('users.destroy', $user->id) }}" onclick="return confirm('¿Seguro que deseas eliminar este usuario?')" class="btn btn-danger text-white"><i class="material-icons">close</i></a> 
+				<a href="{{ route('users.edit', $user->id) }}" class="btn btn-warning text-white"><i class="material-icons">mode_edit</i></a></td>
 		</tr>
 		@endforeach
 	</tbody>
